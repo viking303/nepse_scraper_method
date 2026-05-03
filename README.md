@@ -46,11 +46,11 @@ Each file contains:
 - Region: **ap-south-1** (Mumbai) for best latency to Nepal
 
 ### Python Dependencies
-selenium>=4.0.0
-webdriver-manager>=4.0.0
-pandas>=2.0.0
-lxml>=5.0.0
-html5lib>=1.1
+-selenium:4.0.0
+-webdriver-manager>=4.0.0
+-pandas>=2.0.0
+-lxml>=5.0.0
+-html5lib>=1.1
 
 ---
 
