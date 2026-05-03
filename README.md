@@ -45,12 +45,25 @@ Each file contains:
 - Storage: **30GB EBS**
 - Region: **ap-south-1** (Mumbai) for best latency to Nepal
 
-### Python Dependencies
--selenium:4.0.0
--webdriver-manager>=4.0.0
--pandas>=2.0.0
--lxml>=5.0.0
--html5lib>=1.1
+## 🐍 Python Dependencies
+
+| Package | Version | Purpose |
+|---|---|---|
+| selenium | >=4.0.0 | Browser automation |
+| webdriver-manager | >=4.0.0 | ChromeDriver management |
+| pandas | >=2.0.0 | Data manipulation & CSV |
+| lxml | >=5.0.0 | HTML parsing |
+| html5lib | >=1.1 | HTML parsing fallback |
+
+Install all dependencies:
+```bash
+pip install selenium webdriver-manager pandas lxml html5lib
+```
+
+Or using requirements.txt:
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
